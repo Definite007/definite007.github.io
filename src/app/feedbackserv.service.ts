@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class FeedbackservService {
-  readonly APIUrl = "http://localhost:8000"
+  readonly APIUrl = "https://survey-backend-kiosk.herokuapp.com/"
 
   constructor(private http: HttpClient) { }
 
