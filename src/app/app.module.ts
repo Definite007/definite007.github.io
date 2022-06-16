@@ -20,7 +20,7 @@ import { FeedbackservService } from './feedbackserv.service';
     FormsModule,
     HttpClientModule,
     HttpClientXsrfModule.withOptions({
-      cookieName: 'XSRF-TOKEN', headerName: 'HTTP_X_XSRF_TOKEN'
+      cookieName: 'csrftoken', headerName: 'X-CSRFToken'
     })
   ],
   providers: [FeedbackservService],
